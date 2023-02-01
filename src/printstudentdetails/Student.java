@@ -11,6 +11,20 @@ package printstudentdetails;
  */
 public class Student 
 {
+
+    /**
+     * @return the sid
+     */
+    public int getSid() {
+        return sid;
+    }
+
+    /**
+     * @param sid the sid to set
+     */
+    public void setSid(int sid) {
+        this.sid = sid;
+    }
   private String name  ;
   private int age   ;
   private int sid ;
